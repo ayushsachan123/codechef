@@ -2,7 +2,7 @@ Question Link-
 
 https://codechef.com/problems/MY1STCONTEST
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-/* package codechef; // don't place package name! */
+
 
 import java.util.*;
 import java.lang.*;
