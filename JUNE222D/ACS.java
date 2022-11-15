@@ -42,3 +42,4 @@ class Codechef
 // 6
 // -1
 // 10
+
