@@ -34,6 +34,7 @@ class Codechef
 // 35 0
 // 50 100
   
+
 // Output--
 // 6
 // 0
