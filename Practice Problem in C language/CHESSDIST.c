@@ -4,9 +4,10 @@ int main()
 {
  int h,i,m,a,k,r,d;
 	scanf("%d",&h);
+	
 	while(h>0)
 	{
-	    scanf("%d%d%d%d",&i,&m,&a,&k);
+	   scanf("%d%d%d%d",&i,&m,&a,&k);
 	   r=abs(i-a);
 	   d=abs(m-k);
 	   if(r>=d)
@@ -19,5 +20,6 @@ int main()
 	   }
 	   h--;
 	}
+	
 	return 0;
 }

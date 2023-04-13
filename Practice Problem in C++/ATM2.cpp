@@ -9,9 +9,11 @@ int main() {
 	 cin>>a>>b;
 	 int arr1[a];
 	 int arr2[a];
+
 	 for(int i=0;i<a;i++){
 	     cin>>arr1[i];
 	 }
+	 
 	 for(int i=0;i<a;i++){
 	     if(b>=arr1[i]){
 	         b-=arr1[i];

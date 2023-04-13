@@ -6,6 +6,7 @@ int main() {
 	int n,a,b,c;
 	cin>>n;
 	while(n-->0){
+		
 	    cin>>a>>b>>c;
 	    if(a>b+c){
 	        cout<<"YES"<<endl;
@@ -20,6 +21,7 @@ int main() {
 	        cout<<"NO"<<endl;
 	    }
 	}
+
 	return 0;
 }
 

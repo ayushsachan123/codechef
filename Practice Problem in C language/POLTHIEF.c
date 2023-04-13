@@ -2,8 +2,9 @@
 
 int main()
 {
-    int n,a,b;
+  int n,a,b;
   scanf("%d",&n);
+  
 while(n>0)
 {
     scanf("%d %d",&a,&b);
@@ -21,5 +22,6 @@ while(n>0)
     }
     n--;
 }
+
     return 0;
 }

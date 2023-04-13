@@ -4,9 +4,10 @@ int main()
 {
     int n,a,b;
   scanf("%d",&n);
+  
 while(n>0)
 {
-    scanf("%d %d",&a,&b);
+  scanf("%d %d",&a,&b);
   if(a==b)
   {
       printf("ANY\n");
@@ -21,5 +22,6 @@ while(n>0)
   }
     n--;
 }
+
 return 0;
 }

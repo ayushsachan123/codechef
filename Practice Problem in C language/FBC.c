@@ -4,9 +4,10 @@ int main()
 {
     int n,x,y;
   scanf("%d",&n);
+  
 while(n>0)
 {
-    scanf("%d %d",&x,&y);
+   scanf("%d %d",&x,&y);
    if(x>y)
    {
        printf("%d\n",(x-y));
@@ -17,5 +18,6 @@ while(n>0)
    }
     n--;
 }
+
     return 0;
 }

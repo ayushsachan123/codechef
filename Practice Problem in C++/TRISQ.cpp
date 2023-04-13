@@ -6,11 +6,13 @@ int main() {
 	 int t,a;
  cin>>t;
  while(t-->0){
+   
     cin>>a;
     int b = (a/2)-1;
     int c = b*(b+1)/2;
     cout<<c<<endl;
  }
+
 	return 0;
 }
 

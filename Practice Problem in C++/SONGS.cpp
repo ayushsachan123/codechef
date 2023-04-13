@@ -6,10 +6,12 @@ int main() {
 	int n,a,b;
 	cin>>n;
 	while(n-->0){
+		
 	    cin>>a>>b;
 	    int c = a/(3*b);
 	    cout<<c<<endl;
 	}
+
 	return 0;
 }
 

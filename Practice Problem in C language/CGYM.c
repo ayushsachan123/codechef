@@ -1,9 +1,10 @@
-C#include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
     int n,x,y,z;
     scanf("%d",&n);
+    
     while(n--)
     {
         scanf("%d %d %d",&x,&y,&z);

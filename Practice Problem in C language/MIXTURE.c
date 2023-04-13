@@ -3,10 +3,12 @@
 int main(void) {
     int t;
     scanf("%d\n",&t);
+    
     while(t--){
         int s,l;
         scanf("%d ",&s);
         scanf("%d",&l);
+        
         if(s>0&&l>0){
             printf("Solution\n");
         }
@@ -17,7 +19,7 @@ int main(void) {
             printf("Liquid\n");
         }
     }
-	// your code goes here
+	
 	return 0;
 }
 

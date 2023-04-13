@@ -4,9 +4,11 @@ int main()
 {
 	int t,m,n,k;
 	scanf("%d",&t);
+	
 	while(t!=0)
 	{
 	    scanf("%d%d%d",&m,&n,&k);
+		
 	    if(m>n*k)
 	    {
 	        printf("YES");
@@ -18,6 +20,7 @@ int main()
 	    printf("\n");
 	     t--;
 	}
+	
 	return 0;
 }
 

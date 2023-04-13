@@ -6,6 +6,7 @@ int main() {
 	int n,a,b;
 	cin>>n;
 	while(n-->0){
+		
 	    cin>>a>>b;
 	    int c = (a+b)%4;
 	    if(c==0 || c==1 ){
@@ -15,6 +16,7 @@ int main() {
 	        cout<<"Bob"<<endl;
 	    }
 	}
+
 	return 0;
 }
 

@@ -6,7 +6,8 @@ int main()
     
      char a,b;
      scanf("%c %c",&a,&b);
-     if (a == c[0] &&  b == c[0])
+     
+    if (a == c[0] &&  b == c[0])
    {
    printf("R");
    }
@@ -14,7 +15,7 @@ int main()
    {
    printf("R");
    }
-    if(a== c[0] && b==c[2])
+   if(a== c[0] && b==c[2])
     {
    printf("R");
     }

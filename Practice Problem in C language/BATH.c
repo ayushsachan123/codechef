@@ -4,6 +4,7 @@ int main()
 {
     int n,a,b;
     scanf("%d",&n);
+    
     while(n--)
     {
         scanf("%d %d",&a,&b);
@@ -20,6 +21,6 @@ int main()
         {
             printf("%d\n",d);
         }
-    }
+    } 
     return 0;
 }

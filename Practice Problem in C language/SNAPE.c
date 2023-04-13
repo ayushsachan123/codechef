@@ -6,6 +6,7 @@ int main()
 int n;
 float a,b;
 scanf("%d",&n);
+
 while(n--)
 {
     scanf("%f %f",&a,&b);

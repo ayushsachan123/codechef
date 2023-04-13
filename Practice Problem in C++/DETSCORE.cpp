@@ -6,11 +6,13 @@ int main() {
 	int n,a,b;
 	cin>>n;
 	while(n--){
+		
 	  cin>>a>>b;
 	  int c= a/10;
 	  int d= c*b;
 	  cout<<d<<endl;
 	}
+
 	return 0;
 }
 

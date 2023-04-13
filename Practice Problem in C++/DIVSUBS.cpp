@@ -6,6 +6,7 @@ int32_t main() {
     int t;
     cin >> t;
     while(t--) {
+        
         int N;
         cin >> N;
         vector<int> a;
@@ -43,6 +44,7 @@ int32_t main() {
                     break;
                 }
             }
+
             int first = 0;
             int second = 0;
             for(int i=0; i<N; i++) {
